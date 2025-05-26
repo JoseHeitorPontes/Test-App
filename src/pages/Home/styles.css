@@ -1,0 +1,25 @@
+#new-patient {
+    color: #fff;
+    background-color: #1ab5db;
+    padding: 0.5rem 0.75rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 0.25rem;
+    transition: 0.1s;
+}
+
+#new-patient:hover {
+    filter: brightness(95%);
+}
+
+#patients-table {
+    width: 100%;
+    border: 0.15rem solid #000;
+    border-collapse: collapse;
+}
+
+#patients-table th, #patients-table td {
+    padding: 0.25rem;
+    border: 0.15rem solid #000;
+}
